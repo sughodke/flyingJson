@@ -23,6 +23,7 @@
 		04739C7613E1D25200FF5403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04739C7413E1D25200FF5403 /* InfoPlist.strings */; };
 		04739C7813E1D25200FF5403 /* flyingJsonTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 04739C7713E1D25200FF5403 /* flyingJsonTests.h */; };
 		04739C7A13E1D25200FF5403 /* flyingJsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04739C7913E1D25200FF5403 /* flyingJsonTests.m */; };
+		04739C8613E1D2EC00FF5403 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04739C8413E1D2EC00FF5403 /* JSONKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,24 @@
 		04739C4913E1D25200FF5403 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04739C4B13E1D25200FF5403 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04739C4D13E1D25200FF5403 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		04739C5113E1D25200FF5403 /* flyingJson-Info.plist */ = {isa = PBXFileReference; path = "flyingJson-Info.plist"; sourceTree = "<group>"; };
+		04739C5113E1D25200FF5403 /* flyingJson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flyingJson-Info.plist"; sourceTree = "<group>"; };
 		04739C5313E1D25200FF5403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04739C5513E1D25200FF5403 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04739C5713E1D25200FF5403 /* flyingJson-Prefix.pch */ = {isa = PBXFileReference; path = "flyingJson-Prefix.pch"; sourceTree = "<group>"; };
-		04739C5813E1D25200FF5403 /* flyingJsonAppDelegate.h */ = {isa = PBXFileReference; path = flyingJsonAppDelegate.h; sourceTree = "<group>"; };
+		04739C5713E1D25200FF5403 /* flyingJson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flyingJson-Prefix.pch"; sourceTree = "<group>"; };
+		04739C5813E1D25200FF5403 /* flyingJsonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flyingJsonAppDelegate.h; sourceTree = "<group>"; };
 		04739C5913E1D25200FF5403 /* flyingJsonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flyingJsonAppDelegate.m; sourceTree = "<group>"; };
 		04739C5C13E1D25200FF5403 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		04739C5E13E1D25200FF5403 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		04739C5E13E1D25200FF5403 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		04739C5F13E1D25200FF5403 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		04739C6213E1D25200FF5403 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		04739C6913E1D25200FF5403 /* flyingJsonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flyingJsonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04739C6A13E1D25200FF5403 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		04739C7313E1D25200FF5403 /* flyingJsonTests-Info.plist */ = {isa = PBXFileReference; path = "flyingJsonTests-Info.plist"; sourceTree = "<group>"; };
+		04739C7313E1D25200FF5403 /* flyingJsonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flyingJsonTests-Info.plist"; sourceTree = "<group>"; };
 		04739C7513E1D25200FF5403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04739C7713E1D25200FF5403 /* flyingJsonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flyingJsonTests.h; sourceTree = "<group>"; };
 		04739C7913E1D25200FF5403 /* flyingJsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flyingJsonTests.m; sourceTree = "<group>"; };
+		04739C8413E1D2EC00FF5403 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		04739C8513E1D2EC00FF5403 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 		04739C4F13E1D25200FF5403 /* flyingJson */ = {
 			isa = PBXGroup;
 			children = (
+				04739C8313E1D2D500FF5403 /* JSON-lib */,
 				04739C5813E1D25200FF5403 /* flyingJsonAppDelegate.h */,
 				04739C5913E1D25200FF5403 /* flyingJsonAppDelegate.m */,
 				04739C5B13E1D25200FF5403 /* MainWindow.xib */,
@@ -155,6 +159,15 @@
 				04739C7413E1D25200FF5403 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04739C8313E1D2D500FF5403 /* JSON-lib */ = {
+			isa = PBXGroup;
+			children = (
+				04739C8413E1D2EC00FF5403 /* JSONKit.m */,
+				04739C8513E1D2EC00FF5403 /* JSONKit.h */,
+			);
+			name = "JSON-lib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				04739C5613E1D25200FF5403 /* main.m in Sources */,
 				04739C5A13E1D25200FF5403 /* flyingJsonAppDelegate.m in Sources */,
 				04739C6013E1D25200FF5403 /* RootViewController.m in Sources */,
+				04739C8613E1D2EC00FF5403 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
