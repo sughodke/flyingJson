@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  Item: MyString
+  Status: MyString
+  Done: 1
+
+two:
+  Item: MyString
+  Status: MyString
+  Done: 1
